@@ -10,13 +10,12 @@ NumPy
 Installation
 Clone the repository:
 
-bash
-Copy code
+
 git clone https://github.com/your-username/facial-expression-recognition.git
+
+
 Install the required packages:
 
-bash
-Copy code
 pip install -r requirements.txt
 Download the pre-trained deep learning model and Haar cascade classifier:
 
@@ -27,8 +26,6 @@ Place the downloaded files in the project directory.
 Usage
 Run the Python script:
 
-bash
-Copy code
 python facial_expression_recognition.py
 The script will open a new window displaying the video stream from your webcam. It will detect faces and classify the facial expressions in real-time.
 
